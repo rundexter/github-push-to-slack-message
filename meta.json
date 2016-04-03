@@ -1,0 +1,36 @@
+/*
+ * Metadata describing the module operation
+ */
+{
+    "inputs": [{
+        "id": "ref",
+        "title": "ref"
+    }, {
+        "id": "before",
+        "title":"before"
+    }, {
+        "id": "after",
+        "title": "after"
+    }, {
+        "id": "compare",
+        "title": "compare"
+    }, {
+        "id": "commits",
+        "title": "commits"
+    }, {
+        "id": "repository",
+        "title": "repository"
+    }, {
+        "id": "sender",
+        "title": "sender"
+    }],
+    "outputs": [{
+        "id": "text",
+        "title":"Message text"
+    }, {
+        "id": "attachments",
+        "title": "Message attachments"
+    }],
+    "icon" : "github",
+    "title": "GitHub Push to Slack Message"
+}

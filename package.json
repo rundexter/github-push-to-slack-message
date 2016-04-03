@@ -1,0 +1,16 @@
+{
+    "name": "github-push-to-slack-message",
+    "version": "0.0.1",
+    "description": "Format a github message for slack",
+    "main": "index.js",
+    "author": "Run Dexter, Inc",
+    "license": "ISC",
+    "private": true,
+    "dependencies": {
+        "lodash": "^4"
+    },
+    "repository": {
+        "type" : "git",
+        "url"  : "https://github.com/rundexter/github-push-to-slack-message"
+    }
+}
